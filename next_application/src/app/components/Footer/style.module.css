@@ -1,8 +1,22 @@
-.wrapper {
+.context {
+    display: flex;
+    flex-direction: column;
+    background: #474747;
     width: 1920px;
+    height: 100vh;
+}
+
+.wrapper {
     display: flex;
     justify-content: space-around;
-    background: #474747;
+
+    .sign {
+        width: 424px;
+        height: 24px;
+        color: var(--neutral-04, #ADB29E);
+        font-style: normal;
+        font: 400 16px DM Sans;
+    }
 
     .info {
         display: flex;
@@ -69,6 +83,7 @@
                 border-radius: 12px;
                 width: 222px;
                 height: 176px;
+                margin-bottom: 20px;
             }
 
             .img2 {
@@ -87,17 +102,19 @@
                 border-radius: 12px;
                 width: 222px;
                 height: 176px;
+                margin-bottom: 20px;
+            }
+
+            .img4 {
+                background-image: url('./assets/pexels4.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                border-radius: 12px;
+                width: 222px;
+                height: 176px;
             }
         }
 
-        .img4 {
-            background-image: url('./assets/pexels4.png');
-            background-repeat: no-repeat;
-            background-size: contain;
-            border-radius: 12px;
-            width: 222px;
-            height: 176px;
-        }
     }
 
 }
