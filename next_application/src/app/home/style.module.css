@@ -1,0 +1,64 @@
+.wrapper {
+    width: 1920px;
+    background: #FFF;
+}
+
+.food .img {
+    background-image: url('./assets/image\ 110.png');
+    width: 2250px;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu .head {
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.menu .nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu .nav .caterings {
+    border-radius: 12px;
+    border: 1.5px solid var(--neutral-03, #DBDFD0);
+    background: var(--neutral-01, #FFF);
+}
+
+.menu .nav .breackfast .img {
+    background-image: url('./assets/tea.svg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu .nav .main .img {
+    background-image: url('./assets/icon.svg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu .block .drinks .img {
+    background-image: url('./assets/icon1.svg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu .block .desserts .img {
+    background-image: url('./assets/icon2.svg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
