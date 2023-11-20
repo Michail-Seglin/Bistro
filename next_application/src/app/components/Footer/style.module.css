@@ -1,0 +1,103 @@
+.wrapper {
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+    background: #474747;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        color: #F9F9F7;
+        font: 400 16px DM Sans;
+        font-style: normal;
+
+        .icon {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            color: #FFF;
+            font-style: italic;
+            font: 600 32.67px Playfair Display;
+
+            .img {
+                background-image: url('./assets/food.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 56px;
+                height: 55px;
+            }
+
+        }
+
+        .description {
+            color: var(--neutral-04, #ADB29E);
+            font-style: normal;
+            font: 400 16px DM Sans;
+        }
+
+    }
+
+
+    .pages,
+    .utility {
+        .head {
+            color: var(--neutral-01, #FFF);
+            font: 700 16px DM Sans;
+            font-style: normal;
+        }
+
+
+        color: var(--neutral-03, #DBDFD0);
+        font-style: normal;
+        font: 400 16px DM Sans;
+
+    }
+
+    .photo {
+        color: var(--neutral-01, #FFF);
+        font: 700 16px DM Sans;
+        font-style: normal;
+
+        .picture {
+            display: flex;
+
+
+            .img1 {
+                background-image: url('./assets/pexels1.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                border-radius: 12px;
+                width: 222px;
+                height: 176px;
+            }
+
+            .img2 {
+                background-image: url('./assets/eiliv2.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                border-radius: 12px;
+                width: 222px;
+                height: 176px;
+            }
+
+            .img3 {
+                background-image: url('./assets/pexels3.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                border-radius: 12px;
+                width: 222px;
+                height: 176px;
+            }
+        }
+
+        .img4 {
+            background-image: url('./assets/pexels4.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            border-radius: 12px;
+            width: 222px;
+            height: 176px;
+        }
+    }
+
+}
