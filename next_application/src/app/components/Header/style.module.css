@@ -1,0 +1,83 @@
+.wrapper {
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+    background: #474747;
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        color: #F9F9F7;
+        font: 400 16px DM Sans;
+        font-family: DM Sans;
+        font-style: normal;
+
+        .phone {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .iconPhone {
+                background-image: url('./assets/phone.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        .mail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .iconMail {
+                background-image: url('./assets/mail.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .twitter {
+            background-image: url('./assets/1.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 27px;
+            height: 27px;
+        }
+
+        .faceBook {
+            background-image: url('./assets/2.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 27px;
+            height: 27px;
+        }
+
+        .inst {
+            background-image: url('./assets/3.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 27px;
+            height: 27px;
+        }
+
+        .git {
+            background-image: url('./assets/4.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 27px;
+            height: 27px;
+        }
+    }
+}
