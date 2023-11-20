@@ -1,5 +1,5 @@
 .wrapper {
-    width: 1920px;
+    width: 1293px;
     background: #FFF;
 }
 
@@ -57,6 +57,43 @@
 
 .menu .block .desserts .img {
     background-image: url('./assets/icon2.svg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.event .block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.event .block .caterings .img {
+    background-image: url('./assets/kebab-set-table\ 1.png');
+    width: 416px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.event .block .birthdays .img {
+    background-image: url('./assets/happy-man-wife-sunny-day.png');
+    width: 416px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.event .block .caterings .img {
+    background-image: url('./assets/group-friends-eating-restaurant.png');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.event .block .caterings .img {
+    background-image: url('./assets/charming-female-blowing.png');
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;

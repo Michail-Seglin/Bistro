@@ -1,7 +1,8 @@
 import style from './style.module.css'
-
+import Link from 'next/link'
 export default function Header() {
-    return (
+    return (<section>
+
         <div className={style.wrapper}>
             <div className={style.info}>
                 <div className={style.phone}>
@@ -20,6 +21,15 @@ export default function Header() {
                 <div className={style.git}></div>
             </div>
         </div>
+        <div className={style.wrapper}>
+            <Link href={'/about'}>
+                <h1>about</h1>
+            </Link>
+            <Link href={'/home'}>
+                <h1>home</h1>
+            </Link>
+        </div>
+    </section>
 
     )
 }
