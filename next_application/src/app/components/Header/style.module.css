@@ -1,7 +1,12 @@
-.wrapper {
+.main {
     width: 1600px;
+    background: #F9F9F7
+}
+
+.wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background: #474747;
 
     .info {
@@ -11,12 +16,13 @@
         font: 400 16px DM Sans;
         font-family: DM Sans;
         font-style: normal;
+        gap: 25px;
 
         .phone {
             display: flex;
             justify-content: space-between;
             align-items: center;
-
+            gap: 8px;
 
             .iconPhone {
                 background-image: url('./assets/phone.svg');
@@ -31,6 +37,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 8px;
 
             .iconMail {
                 background-image: url('./assets/mail.svg');
@@ -47,6 +54,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 3px;
 
         .twitter {
             background-image: url('./assets/1.svg');
@@ -80,4 +88,55 @@
             height: 27px;
         }
     }
+}
+
+
+.white {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .name {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+gap: 10px;
+        .img {
+            background-image: url('./assets/japanese.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 56px;
+            height: 55px;
+        }
+    }
+
+    .page {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .button {
+        display: inline-flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 118px;
+        border: 1.5px solid var(--neutral-07, #2C2F24);
+    }
+
+}
+
+.white .name h1 {
+    font-style: italic;
+    font: 600 42.667px Playfair Display;
+    color: #474747;
+    font-size: 42.667px;
+}
+
+.white .page h1 {
+    color: var(--neutral-07, #2C2F24);
+    font: 500 16px DM Sans;
+    font-style: normal;
 }

@@ -47,7 +47,7 @@
     background-size: contain;
 }
 
-.menu .block .drinks .img {
+.menu .nav .drinks .img {
     background-image: url('./assets/icon1.svg');
     width: 100px;
     height: 100px;
@@ -55,7 +55,7 @@
     background-size: contain;
 }
 
-.menu .block .desserts .img {
+.menu .nav .desserts .img {
     background-image: url('./assets/icon2.svg');
     width: 100px;
     height: 100px;
@@ -84,18 +84,18 @@
     background-size: contain;
 }
 
-.event .block .caterings .img {
+.event .block .weddings .img {
     background-image: url('./assets/group-friends-eating-restaurant.png');
-    width: 100px;
-    height: 100px;
+    width: 416px;
+    height: 320px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.event .block .caterings .img {
+.event .block .events .img {
     background-image: url('./assets/charming-female-blowing.png');
-    width: 100px;
-    height: 100px;
+    width: 416px;
+    height: 320px;
     background-repeat: no-repeat;
     background-size: contain;
 }
