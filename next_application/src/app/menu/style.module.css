@@ -22,7 +22,106 @@
     font-weight: 400;
 }
 
-.wrapper .items{
+.wrapper .items {
     display: flex;
-    
+
+}
+
+.wrapper .items h2 {
+    color: #AD343E;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.wrapper .items h3 {
+    color: var(--neutral-07, #2C2F24);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.wrapper .items p {
+    color: var(--neutral-06, #414536);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapper .items .item1 {
+    background-image: url('./assets/pexels-daniela-constantini-5591664_1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item2 {
+    background-image: url('./assets/pexels-nadin-sh-12956424_2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item3 {
+    background-image: url('./assets/pexels-maksim-goncharenok-4773769_3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item4 {
+    background-image: url('./assets/pexels-ruslan-khmelevsky-7845121_4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item5 {
+    background-image: url('./assets/pexels-bam-awey-5335918_5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item6 {
+    background-image: url('./assets/pexels-roman-odintsov-5061254_6.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item7 {
+    background-image: url('./assets/pexels-pixabay-327158_7.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.wrapper .items .item8 {
+    background-image: url('./assets/pexels-nicola-barts-7937386_8.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 305px;
+    height: 305px;
+    border-radius: 12px 12px 0px 0px;
 }
