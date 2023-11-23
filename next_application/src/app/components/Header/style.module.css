@@ -1,5 +1,6 @@
 .main {
-    width: 1600px;
+    max-width: 1296px;
+    width: 100%;
     background: #F9F9F7
 }
 
@@ -100,7 +101,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-gap: 10px;
+        gap: 10px;
+
         .img {
             background-image: url('./assets/japanese.svg');
             background-repeat: no-repeat;
