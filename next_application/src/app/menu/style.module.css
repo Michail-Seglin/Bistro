@@ -24,7 +24,7 @@
 
 .wrapper .items {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .wrapper .items h2 {
