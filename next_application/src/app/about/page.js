@@ -1,5 +1,40 @@
 import style from './style.module.css'
 
+const arrHelp = [
+    {
+        id: 'phone',
+        p: '(414) 857 - 0107'
+    },
+    {
+        id: 'mail',
+        p: 'happytummy@restaurant.com'
+    },
+    {
+        id: 'point',
+        p: '837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles'
+    }
+]
+
+const helper = [
+    {
+        h1: '3',
+        p: 'Locations'
+    },
+    {
+        h1: '1995',
+        p: 'Founded'
+    },
+    {
+        h1: '65+',
+        p: 'Staff Members'
+    },
+    {
+        h1: '100%',
+        p: 'Satisfied Customers'
+    }
+]
+
+
 export default function About() {
     return (
         <>
