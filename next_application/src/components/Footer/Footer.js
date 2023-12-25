@@ -1,53 +1,84 @@
-import style from './style.module.css'
+import Image from "next/image";
+import style from "./footer.style.module.scss";
+import footerLogo from "./assets/footerLogo.png";
+import food1 from "./assets/food1.png";
+import food2 from "./assets/food2.png";
+import food3 from "./assets/food3.png";
+import food4 from "./assets/food4.png";
 
 export default function Footer() {
+    const linkFooterBlockLeft = ["Home", "About", "Menu", "Pricing", "Blog", "Contact", "Delivery"];
+    const linkFooterBlockRight = [
+        "Start Here",
+        "Styleguide",
+        "Password Protected",
+        "404 Not Found",
+        "Licenses",
+        "Changelog",
+        "View More",
+    ];
+
+    const foodImg = [
+        { imgPath: food1, imgName: "food1" },
+        { imgPath: food2, imgName: "food2" },
+        { imgPath: food3, imgName: "food3" },
+        { imgPath: food4, imgName: "food4" },
+    ];
+
     return (
         <>
-            <div className={style.context}>
-                <div className={style.wrapper}>
-                    <div className={style.info}>
-                        <div className={style.icon}>
-                            <div className={style.img}></div>
-                            <p>Bistro Bliss</p>
+            <div className={style.footerContainer}>
+                <div className={style.footerWrapper}>
+                    <div className={style.footerDesc}>
+                        <div className={style.footerBlock}>
+                            <Image src={footerLogo} alt='titleLogo'></Image>
+                            <h2>Bistro Bliss</h2>
                         </div>
-                        <div className={style.description}>In the new era of technology we look a in the future with certainty and pride to for our company and.</div>
+
+                        <p>
+                            In the new era of technology we look a in the future with certainty and
+                            pride to for our company and.
+                        </p>
                     </div>
-                    <div className={style.pages}>
-                        <div className={style.head}>Pages</div>
-                        <p>Home</p>
-                        <p>About</p>
-                        <p>Menu</p>
-                        <p>Pricing</p>
-                        <p>Blog</p>
-                        <p>Contact</p>
-                        <p>Delivery</p>
-                    </div>
-                    <div className={style.utility}>
-                        <div className={style.head}>Utility Pages</div>
-                        <p>Start Here</p>
-                        <p>Styleguide</p>
-                        <p>Password Protected</p>
-                        <p>404 Not Found</p>
-                        <p>Licenses</p>
-                        <p>Changelog</p>
-                        <p>View More</p>
-                    </div>
-                    <div className={style.photo}>
-                        <h1>Follow Us On Instagram</h1>
-                        <div className={style.picture}>
-                            <div className={style.block1}>
-                                <div className={style.img1}></div>
-                                <div className={style.img2}></div>
-                            </div>
-                            <div className={style.block2}>
-                                <div className={style.img3}></div>
-                                <div className={style.img4}></div>
-                            </div>
+
+                    <div className={style.footerNav}>
+                        <div className={style.footerLinkBlockLeft}>
+                            <h2>Pages</h2>
+
+                            {linkFooterBlockLeft.map((el, i) => (
+                                <p key={i}>{el}</p>
+                            ))}
+                        </div>
+
+                        <div className={style.footerLinkBlockRight}>
+                            <h2>Utility Pages</h2>
+
+                            {linkFooterBlockRight.map((el, i) => (
+                                <p key={i}>{el}</p>
+                            ))}
                         </div>
                     </div>
-                </div >
-                <div className={style.sign}>Copyright © 2023 Seglin Developer. All Rights Reserved</div>
+
+                    <div className={style.footerFoodBlock}>
+                        <h2>Follow Us On Instagram</h2>
+
+                        <div className={style.footerFood}>
+                            {foodImg.map((el, i) => (
+                                <Image
+                                    className={style.foodImg}
+                                    src={el.imgPath}
+                                    alt={el.imgName}
+                                    key={i}
+                                ></Image>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                <p className={style.footerAuthor}>
+                    Copyright © 2023 Hashtag Developer. All Rights Reserved
+                </p>
             </div>
         </>
-    )
+    );
 }
